@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #424242;
+}
+.img {
+  padding: 10px;
+}
+.checkIn {
+  font-weight: 400;
+  font-size: 24px;
+  color: #41522e;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  width: 600px;
+}
+
+.caruosel {
+  cursor: grab;
+  overflow: hidden;
+}
+.innerCaruosel {
+  display: flex;
+}
+
+
+
+.item img {
+  border-radius: 15px;
+  width: 130px;
+  height: 130px;
+  padding: 6px;
+  pointer-events: none;
+}

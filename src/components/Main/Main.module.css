@@ -1,0 +1,28 @@
+.main {
+  width: 670px;
+  height: 930px;
+  background-color: #ffffff;
+  padding: 48px 32px;
+  border-radius: 16px;
+}
+.favorites {
+  display: flex;
+  margin-bottom: 10px;
+}
+.text {
+  margin-right: 6px;
+  font-weight: 300;
+  font-size: 17px;
+  color: #424242;
+}
+.lenght {
+  padding: 0 2px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #41522e;
+}
+.info{
+    font-size: 20px;
+    font-weight: 500;
+    color: #424242;
+}

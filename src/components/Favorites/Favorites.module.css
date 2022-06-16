@@ -1,0 +1,73 @@
+.wrapper {
+  margin: 30px;
+  padding: 30px 20px;
+  width: 360px;
+  height: 470px;
+  background-color: salmon;
+  width: 360px;
+  background: #ffffff;
+  box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.span {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #424242;
+}
+.filter {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5px;
+  padding-bottom: 32px;
+}
+.button {
+  cursor: pointer;
+  width: 89px;
+  height: 28px;
+  background: #ffffff;
+  color: #99a0a3;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.botton:hover {
+  border: 1px solid #41522e;
+  color: #41522e;
+}
+.botton:active {
+  border: 1px solid #41522e;
+  color: #41522e;
+}
+
+.wrapper::-webkit-scrollbar {
+  height: 100%;
+  width: 4px;
+}
+.wrapper::-webkit-scrollbar-thumb {
+  background: #41522e;
+  border-radius: 2px;
+  /* box-shadow: inset 1px 1px 10px #f3faf7; */
+  padding: 10px;
+}
+.wrapper::-webkit-scrollbar-track {
+  margin: 16px 5px;
+  background: #e7e7e7;
+  border-radius: 2px;
+}
+
+.button:hover {
+  color: lightcoral;
+}
+.button:active {
+  color: lightcoral;
+}
